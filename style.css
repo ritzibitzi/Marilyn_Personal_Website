@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
+    padding-left: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', sans-serif;
   }
@@ -9,8 +9,42 @@
     background-color: red;
 }
 
+.box {
+    flex: display;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 50%;
+    align-items: center;
+}
+
+.left {
+    left: 0;
+    width:60vw;
+    background-color:white;
+    padding-left: 10vw;
+    padding-top: 10vh;
+  }
+  
+.right {
+    right: 0;
+    width:40vw;
+    background-color: pink;
+  }
+
+  .pic {
+    display:flex;
+    justify-content: center;
+}
+
 .top {
     background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.desc {
+    font-size: 20px;
 }
 
 .about {
